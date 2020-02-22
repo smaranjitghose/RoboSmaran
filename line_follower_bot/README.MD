@@ -3,14 +3,14 @@
 ## Introduction-
 A Line follower is expected to follow a line continuously through all turns. It should never move out of the line and always maintain its path without fail. To build this robot, the fundamentals of robotics needs to be understood.
 
-## Components Required-
--Battery
--Digital Multimeter
--Breadboard
--Switch
--Voltage regulatorIC 7805)
--Motor Driver(L293D)
--Motors
+## Components Required-  
+-Battery  
+-Digital Multimeter  
+-Breadboard  
+-Switch  
+-Voltage regulatorIC 7805)  
+-Motor Driver(L293D)  
+-Motors  
 -Infrared Sensors
 
 ## LFR Cases-
