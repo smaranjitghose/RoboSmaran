@@ -1,2 +1,2 @@
 # RoboSmaran
-This repo is a collection of various robotics and related projects I built in my freshman year of college
+This repo is a collection of various robotics and IOT projects I built in my freshman year of college
