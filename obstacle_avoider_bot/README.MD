@@ -10,4 +10,11 @@ For obstacle avoider, the output of th IR sensor is LOW when an obstacle is dete
 
 As we have 3 sensors in the front, we will have 8 possible cases for this robot. They are as follows:
 1. When all the sensors are HIGH: there is no obstacle before the robot and in such a case the robot moves forward.
-2. When only left s
+2. When only left sensor is LOW; the obstacle is present to the left side of the robot and in such case the robot moves right.
+3. When only the center sensor is LOW; the obstacle is present in the front of the robotand in such case the robot goes back for a certain    delay and takes a left/right turn.
+4. When only the right sensor is LOW; the obstacle is present to the right side of the robot and in such case the robot moves left.
+5. When only the right sensor is HIGH; the obstacles are present at both left and center sides and in such case the robot goes back for a    certain delay and turns right.
+6. When only the left sensor is HIGH; the obstacles are present at both right and center sides and in such case the robot goes back for a    certain delay and turns left.
+7. When only the center sensor is HIGH; the obstacles are present at both left and right sides and in such case the robot moves forward.
+8. When all the sensors are LOW; there are obstacles present on all the sides and in such case the robot goes back for a certain delay      and takes a 'U' turn.
+
