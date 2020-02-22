@@ -18,3 +18,5 @@ As we have 3 sensors in the front, we will have 8 possible cases for this robot.
 7. When only the center sensor is HIGH; the obstacles are present at both left and right sides and in such case the robot moves forward.
 8. When all the sensors are LOW; there are obstacles present on all the sides and in such case the robot goes back for a certain delay      and takes a 'U' turn.
 
+## Obstacle Avoider Robot Logic Table-
+
