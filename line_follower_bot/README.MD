@@ -1,4 +1,4 @@
-# Line Follower Bot
+# Basic Line Follower Bot
 
 ## Introduction-
 A Line follower is expected to follow a line continuously through all turns. It should never move out of the line and always maintain its path without fail. To build this robot, the fundamentals of robotics needs to be understood.
@@ -17,8 +17,7 @@ A Line follower is expected to follow a line continuously through all turns. It 
 1. When both the sensors are on the white surface (on either side of the black line);the robot moves forward in a straight line.
 2. When the left sensor on black line and right on white;the robot takes a left turn.
 3. When the right sensor on black line and left on white;the robot takes a right turn.
-
-**Note-** We can have a fourth case when both the sensors are on the black line.
+4. We can have a fourth case when both the sensors are on the black line.
 
 ## Logic Table-
 | **Status** | **Left sensors** | **Right sensors** | **Action desired** | **Left motor** | **Right motor**|
