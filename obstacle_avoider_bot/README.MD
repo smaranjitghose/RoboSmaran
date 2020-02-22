@@ -18,5 +18,19 @@ As we have 3 sensors in the front, we will have 8 possible cases for this robot.
 7. When only the center sensor is HIGH; the obstacles are present at both left and right sides and in such case the robot moves forward.
 8. When all the sensors are LOW; there are obstacles present on all the sides and in such case the robot goes back for a certain delay      and takes a 'U' turn.
 
-## Obstacle Avoider Robot Logic Table-
+## Logic Table-
+| **#** | **Left Sensor** | **Center Sensor** | **Right Sensor**| **Obstacle present** | **Action to be taken** | **Left motor** | **Right motor**|
+|-------|-----------------|-------------------|-----------------|----------------------|------------------------|----------------|---------------------|
+| 1 | HIGH | HIGH | HIGH | No obstacle | Forward | Forward | Forward |
+| 2 | HIGH | HIGH | LOW | At right | Turn left | Reverse | Forward |
+| 3 | HIGH | LOW | HIGH | At center | Go back and turn right | Reverse and forward | Reverse and reverse |
+| 4 | HIGH | LOW | LOW | At center and right | Go back and turn left | Reverse and reverse | Reverse and forward |
+| 5 | LOW | HIGH | HIGH | At left | Turn right | Forward | Reverse |
+| 6 | LOW | HIGH | LOW | At left and right | Forward | Forward | Forward |
+| 7 | LOW | LOW | HIGH | At center and left | Go back and turn right | Reverse and forward | Reverse and reverse |
+| 8 | LOW | LOW | LOW | At all sides | U-turn | Reverse and forward | Reverse and reverse |
 
+## Debugging-
+1. Check the continuity of the circuit connections using the continuity mode of the multimeter.
+2. Check the power supply- battery voltage, V<sub>CC</sub> and GND using DC voltage mode of the multimeter.
+3. Check the input and appropriate output volatges of the circuit using DC voltage mode of the multimeter.
